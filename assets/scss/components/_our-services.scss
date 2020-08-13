@@ -1,0 +1,56 @@
+.container{
+  .services-container{
+    background-image: url('../img/services-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    p{
+      width: 65%;
+      text-align: center;
+      opacity: .5;
+    }
+
+    hr{
+      margin: 2rem 0;
+      width: 5%;
+    }
+
+    > button{
+      width: 12rem;
+      height: 3rem;
+      margin-top: 2.5rem;
+      font-size: .8rem;
+    }
+
+    .list-services{
+      margin-top: 3.5rem;
+      display: grid;
+      grid-template: repeat(2, 1fr)/repeat(3, 55vh);
+      grid-gap: 3.4rem;
+
+      > div{
+        padding: 2rem;
+        background: white;
+        box-shadow: 5px 5px 25px 3px rgba(0,0,0,0.2);
+        border-radius: 2rem;
+
+        img{
+          height: 4.5rem;
+        }
+        h1{
+          font-size: 1.2rem;
+          margin: 1rem 0;
+        }
+        p{
+          text-align: left;
+          width: 85%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

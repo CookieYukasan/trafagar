@@ -1,0 +1,19 @@
+:root{
+  font-size: 100%;
+  font-family: 'Mulish';
+
+  --color-text: #1F1534;
+  --color-blue: #458FF6;
+}
+
+*, input, button, textarea{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@import 'components/header';
+@import 'components/our-services.scss';
+@import 'utils/button';
+@import 'components/healthcare-providers.scss';

@@ -1,0 +1,36 @@
+.container{
+  .healthcare-providers{
+    display: inline-flex;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 8rem;
+    
+    > img{
+      height: 28rem;
+    }
+
+    > div{
+      padding-left: 8rem;
+      
+      h1{
+        font-size: 2rem;
+        width: 65%;
+        line-height: 2.1rem;
+      }
+      hr{
+        font-size: 1.9rem;
+        width: 8%;
+        margin: 1.5rem 0;
+      }
+      p{
+        width: 75%;
+        opacity: .5;
+      }
+      button{
+        margin-top: 1.5rem;
+        padding: .8rem 2.5rem;
+        font-size: .8rem;
+      }
+    }
+  }
+}
