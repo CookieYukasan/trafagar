@@ -29,8 +29,13 @@
     .list-services{
       margin-top: 3.5rem;
       display: grid;
-      grid-template: repeat(2, 1fr)/repeat(3, 30vw);
+      grid-template: repeat(2, 1fr)/repeat(3, 1fr);
       grid-gap: 3.4rem;
+      padding: 0 4rem;
+
+      @media screen and (max-width: 850px){
+        grid-template: 1fr/1fr;
+      }  
 
       > div{
         padding: 2rem;
