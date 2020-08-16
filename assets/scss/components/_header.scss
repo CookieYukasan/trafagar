@@ -21,7 +21,7 @@
   header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20% 15%;
+    grid-template-rows: 20% 1fr;
     grid-template-areas: 'header header'
                          'heading illustration';
 
