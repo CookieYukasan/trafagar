@@ -3,7 +3,6 @@
   .circle{
     grid-area: heading;
     justify-self: flex-start;
-    margin-left: calc(1vh - .3rem);
     display: grid;
     grid-template: repeat(5, 10px)/repeat(3, 10px);
     grid-column-gap: 1rem;
@@ -11,8 +10,8 @@
 
     div{
       opacity: .4;
-      width: 10px;
-      height: 10px;
+      width: 11px;
+      height: 11px;
       background: linear-gradient(338.5deg, #97C3F9 -525.42%, #93C1F9 918.63%);;
       border-radius: 50%;
     }
@@ -33,7 +32,7 @@
     .heading{
       grid-area: heading;
       margin-top: 8.6rem;
-      margin-left: 9.6rem;
+      margin-left: 7.6rem;
 
       h1{
         width: 70%;
@@ -61,7 +60,7 @@
 
     nav{
       grid-area: header;
-      padding: 1.5rem 0 1.5rem 9.6rem;
+      padding: 1.5rem 0 1.5rem 7.6rem;
       display: flex;
       align-items: center;
 
