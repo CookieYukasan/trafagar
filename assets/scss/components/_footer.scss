@@ -1,0 +1,42 @@
+$text-color: white;
+
+footer{
+  display: grid;
+  padding: 5rem;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  grid-template: 1fr/2fr 1fr 1fr 1fr;
+
+  .informations{
+    p{
+      margin: 1.2rem 0;
+      font-size: .9rem;
+      width: 70%;
+    }
+
+    p, span{
+      color: $text-color;
+    }
+  }
+
+  div.links{
+    h1{
+      font-size: 1.5rem;
+      color: $text-color;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+
+      a{
+        margin: .2rem 0;
+        text-decoration: none;
+        color: $text-color;
+      }
+      a:first-child{
+        margin-top: 1.2rem;
+      }
+    }
+  }
+}
